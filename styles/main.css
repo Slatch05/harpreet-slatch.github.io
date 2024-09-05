@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Mingzat', sans-serif;
+  font-family: 'PP Neue Montreal', sans-serif;
 }
 
 body {
@@ -35,12 +35,6 @@ header {
   justify-content: space-between;
 }
 
-.logo {
-  font-style: italic;
-  color: rgb(0, 0, 0);
-  font-weight: bolder;
-}
-
 .nav-list {
   list-style: none;
 }
@@ -55,21 +49,27 @@ header {
   transition: all 0.3s ease 0s;
 }
 .nav-list a:hover {
-  color: rgb(194, 148, 11);
+  color: rgb(212, 212, 212);
 }
 .contact:hover {
   color: white;
 }
-.get-started {
-  padding: 4px 20px;
-  border: none;
+.soft-deve {
+  color: rgb(255, 47, 1);
+}
+.email {
+  padding: 3px 10px;
+  border-style: solid;
   border-radius: 50px;
+  border-width: 1px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  background-color: rgb(69, 90, 100);
-  color: rgb(255, 255, 255);
   text-align: center;
   text-transform: uppercase;
+}
+.email:hover {
+  background-color: black;
+  color: azure;
 }
 .con {
   padding: 4px 20px;
@@ -77,11 +77,11 @@ header {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  background-color: rgb(255, 193, 0);
+  background-color: rgb(255, 209, 72);
 }
 
 con:hover {
-  background-color: rgb(228, 175, 13);
+  background-color: rgb(227, 227, 227);
 }
 .para {
   display: inline-block;
@@ -95,48 +95,27 @@ con:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 240, 196);
   border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 90px;
 }
 
 .swtich-para {
-  padding: 20px;
   font-size: 20px;
+  margin-right: 50px;
 }
-.swtich-para > h2 {
+.swtich-para > p {
   font-size: 40px;
   line-height: 1;
   margin-bottom: -20px;
-}
-.swtich-para > p {
-  font-size: 16px;
-  line-height: 1.5;
-  width: 80%;
-  margin-bottom: 12px;
+  white-space: unset;
+  text-align: justify;
 }
 
 .para-two {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.left-text {
-  text-align: left;
-  width: 400px;
-  text-align: justify;
-  background-color: rgb(255, 193, 0);
-  color: rgb(3, 3, 3);
-  border-radius: 10px;
-  padding: 20px 20px;
-}
-.right-text {
-  text-align: right;
-  width: 400px;
-  text-align: justify;
-  background-color: rgb(69, 90, 100);
-  color: azure;
-  border-radius: 10px;
-  padding: 20px 20px;
 }
 footer {
   display: flex;
@@ -168,10 +147,6 @@ footer li {
   .con {
     margin-top: 8px;
     padding: 5px 40px;
-  }
-  .para-two {
-    display: flex;
-    flex-direction: column;
   }
 
   footer {
