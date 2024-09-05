@@ -34,9 +34,12 @@ header {
   width: 100%;
   justify-content: space-between;
 }
-
+.logo {
+  text-decoration: underline;
+}
 .nav-list {
   list-style: none;
+  font-weight: normal;
 }
 
 .nav-list li {
@@ -55,7 +58,6 @@ header {
 
 .soft-deve {
   color: rgb(0, 80, 219);
-  /* color: rgb(255, 47, 1); */
 }
 .email {
   padding: 3px 10px;
@@ -112,6 +114,9 @@ header {
   margin-bottom: -10px;
 }
 
+.te-hou {
+  margin: 120px 0px;
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -124,7 +129,7 @@ footer li {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .swtich-p {
     flex-direction: column;
   }
