@@ -37,7 +37,6 @@ header {
 }
 
 .logo {
-  text-decoration: underline;
   background-color: rgb(7, 78, 200);
   color: white;
   border-radius: 50px;
@@ -58,7 +57,7 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-.b:hover {
+/* .b:hover {
   padding: 7px 10px;
   text-decoration: underline;
   border-radius: 50px;
@@ -66,22 +65,22 @@ header {
   transition: all 0.3s ease 0s;
   background-color: rgb(7, 78, 200);
   color: rgb(255, 252, 252);
-}
+} */
 
-/* .con {
-  padding: 4px 20px;
+.con {
+  padding: 6px 20px;
   border-radius: 50px;
-  border-style: solid;
-  border-width: 1px;
+  /* border-style: solid;
+  border-width: 1px; */
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  background-color: rgb(7, 78, 200);
-  color: rgb(255, 252, 252);
+  background-color: white;
+  color: black;
 }
 .con:hover {
-  color: rgb(0, 0, 0);
-  background-color: white;
-} */
+  color: white;
+  background-color: rgb(7, 78, 200);
+}
 .soft-deve {
   color: rgb(0, 80, 219);
 }
@@ -130,6 +129,11 @@ header {
 
 .te-hou {
   margin: 120px 0px;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 120px;
 }
 footer {
   display: flex;
