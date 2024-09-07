@@ -9,12 +9,12 @@
   border-width: 1px;
   border: 1px solid #e7e3e3;
   background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 5px 5px 5px #aaaaaa;
   border-radius: 5px;
   margin-bottom: 100px;
 }
 .margin-text {
-  padding: 10px 60px 0px 60px;
+  padding: 20px 60px 0px 60px;
   font-size: x-large;
   font-weight: 100px;
 }

@@ -18,6 +18,7 @@ footer li:hover {
   outline: solid;
   cursor: pointer;
   transition: all 0.1s ease 0s;
+  outline-width: 1px;
 }
 
 .about {
