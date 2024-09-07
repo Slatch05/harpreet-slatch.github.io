@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
+
+.icon-tech {
+  margin-top: 120px;
+  font-size: 6rem;
+}
+
+.margin {
+  border-width: 1px;
+  border: 1px solid #e7e3e3;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.margin-text {
+  padding: 10px 60px 0px 60px;
+  font-size: x-large;
+  font-weight: 100px;
+}
+.margin-para {
+  padding: 10px 60px;
+}
+
+.margin-example {
+  padding: 5px 20px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 10px 60px;
+  text-align: left;
+}
+
+.heading-context {
+  padding: 5px 60px;
+  font-style: italic;
+  color: rgb(121, 121, 121);
+}
+.border-solid {
+  padding: 5px 20px;
+  border: 3px solid rgb(7, 78, 200);
+  color: rgb(10, 10, 10);
+  border-radius: 10px;
+  margin: 0px 60px;
+  text-align: left;
+}
+
+.border-dashed {
+  padding: 5px 20px;
+  border: 3px dashed rgb(7, 78, 200);
+  color: rgb(10, 10, 10);
+  border-radius: 10px;
+  margin: 0px 60px;
+  text-align: left;
+}
+.border-double {
+  padding: 5px 20px;
+  border: 3px double rgb(7, 78, 200);
+  color: rgb(10, 10, 10);
+  border-radius: 10px;
+  margin: 0px 60px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .swtich-p {
+    flex-direction: column;
+  }
+  .nav-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .con {
+    margin-top: 8px;
+    padding: 5px 40px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

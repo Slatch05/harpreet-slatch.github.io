@@ -6,6 +6,9 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, inital-scale=1.0" />
       <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+      <link href="../styles/header.css" rel="stylesheet" type="text/css" />
+      <link href="../styles/footer.css" rel="stylesheet" type="text/css" />
+      <link href="../styles/contact.css" rel="stylesheet" type="text/css" />
     </head>
   </head>
   <body>
@@ -15,19 +18,22 @@
         <ul class="nav-list">
           <li><a class="con" href="../index.html">Index</a></li>
           <li>
-            <a class="con" href="../blog/te-houtaewa-template.html">Blog</a>
+            <a class="con" href="../blog/te-houtaewa-template.html"
+              >Te-houtaewa</a
+            >
           </li>
           <li>
-            <a class="con" href="../technical blog/technical-blog.html"
+            <a class="con" href="../blog/html-css.html""
               >Tech Blog</a
             >
           </li>
-          <li><a class="con" href="./contact.html"> Contact</a></li>
+          <li><a class="con" href="./contact.html">Ping me</a></li>
         </ul>
       </nav>
     </header>
-    <div class="contact">
-      <form action="#">
+    <div>
+      <h1 class="contact-icon">Get in touch</h1>
+      <form class="contact" action="#">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required />
 
@@ -37,9 +43,10 @@
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit">Submit</button>
+        <button class="submit" type="submit">Submit</button>
       </form>
     </div>
+    <br />
     <hr />
     <footer class="footer">
       <div>
@@ -47,8 +54,8 @@
       </div>
       <div>
         <ul>
-          <li>About</li>
-          <li>Contact</li>
+          <li class="about">About</li>
+          <li><a href="../contact/contact.html">Ping me</a></li>
           <li><a href="mailto: blue_slatch@icloud.com">Email</a></li>
         </ul>
       </div>
