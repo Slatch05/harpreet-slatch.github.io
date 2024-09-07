@@ -87,15 +87,24 @@ body {
 @media only screen and (max-width: 1000px) {
   .swtich-p {
     flex-direction: column;
+    align-items: center;
+  }
+  .icon-index {
+    text-align: center;
+  }
+
+  .swtich-para {
+    text-align: center;
+  }
+  .hero-img {
+    margin-top: auto;
+  }
+  .blog-icon {
+    text-align: center;
   }
 
   .con {
     margin-top: 8px;
     padding: 5px 40px;
-  }
-  .contact {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 }

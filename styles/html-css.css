@@ -63,30 +63,12 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .swtich-p {
-    flex-direction: column;
-  }
-  .nav-list li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  .icon-tech {
+    text-align: center;
   }
 
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .con {
-    margin-top: 8px;
-    padding: 5px 40px;
-  }
-
-  .contact {
-    flex-direction: column;
-    align-items: center;
+  .margin {
+    align-content: center;
     text-align: center;
   }
 }
