@@ -48,4 +48,13 @@ textarea {
   .contact-icon {
     text-align: center;
   }
+
+  input,
+  textarea {
+    padding: 8px 50px;
+  }
+  .submit,
+  .submit:hover {
+    padding: 10px 20px;
+  }
 }

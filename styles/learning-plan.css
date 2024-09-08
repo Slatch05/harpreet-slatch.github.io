@@ -33,4 +33,11 @@
   .icon-learn {
     text-align: center;
   }
+
+  .ques {
+    margin: 0px -40px;
+  }
+  .ans {
+    margin: 0px -40px;
+  }
 }

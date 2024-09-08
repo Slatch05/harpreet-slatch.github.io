@@ -71,4 +71,15 @@
     align-content: center;
     text-align: center;
   }
+
+  .margin-para {
+    margin: 0px -40px;
+    text-align: justify;
+  }
+
+  .border-dashed,
+  .border-double,
+  .border-solid {
+    margin: 0px 10px;
+  }
 }
