@@ -64,11 +64,11 @@
 
 @media only screen and (max-width: 1000px) {
   .icon-tech {
-    text-align: center;
+    text-align: justify;
   }
 
-  /* .margin {
+  .margin {
     align-content: center;
     text-align: center;
-  } */
+  }
 }
