@@ -38,6 +38,47 @@
   overflow-y: auto;
   width: 440px;
 }
+
+.link {
+  padding: 1px 5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link:hover {
+  background-color: black;
+  color: azure;
+}
+.link-youtube {
+  padding: 1px 5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link-youtube:hover {
+  background-color: rgb(255, -0, 0);
+  color: azure;
+}
+.neuro-text {
+  font-size: x-large;
+  font-weight: 100px;
+  padding-bottom: 5px 5px;
+  background-color: rgb(0, 71, 195);
+  color: white;
+  width: 180px;
+  font-style: italic;
+  text-align: center;
+  border-radius: 50px;
+}
+
 @media only screen and (max-width: 1000px) {
   .icon-value {
     text-align: center;
