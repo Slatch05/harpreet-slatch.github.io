@@ -71,7 +71,8 @@
   font-size: x-large;
   font-weight: 100px;
   padding-bottom: 5px 5px;
-  background-color: rgb(0, 71, 195);
+  /* background-color: rgb(0, 71, 195); */
+  background-color: rgb(69, 91, 100);
   color: white;
   width: 180px;
   font-style: italic;
