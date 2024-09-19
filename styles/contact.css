@@ -50,9 +50,16 @@ textarea {
     margin-top: 30px;
     font-size: 5rem;
   }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+  }
 
   input,
   textarea {
+    flex-direction: column;
     padding: 8px 50px;
   }
   .submit,
