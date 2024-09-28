@@ -47,7 +47,9 @@
     margin-top: 30px;
     font-size: 5rem;
   }
-
+  .learning-text {
+    margin: 0px auto;
+  }
   .ques {
     margin: 0px -40px;
   }
